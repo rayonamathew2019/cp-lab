@@ -1,0 +1,11 @@
+#include<stdio.h>
+void main()
+{
+int num,reverse=0;
+printf("enter the number");
+scanf("%d",&num);
+
+reminder=num%10
+reverse=reverse*10+reminder
+num=num/10
+printf("%dis the reverse",reverse);
