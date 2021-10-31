@@ -2,7 +2,7 @@
 void main()
 {
 	int hours;
-	printf("enter the hour");
+	printf("Enter the hour");
 	scanf("%d",&hours);
 	if((hours>=2)&&(hours<3))
 		printf("worker is highly efficent");
