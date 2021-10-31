@@ -2,7 +2,7 @@
 void main()
 {
 int n,pali,rev=0,rem;
-printf("enter the number");
+printf("enter the num");
 scanf("%d",&n);
 pali=n;
 while(n>0)
