@@ -2,11 +2,11 @@
 void main()
 {
 int AM,PM,i,j;
-printf("midnight\n");
+printf("Midnight\n");
 for(i=1;i<=11;i++)
 	printf("%dAM\n",i);
-printf("noon\n");
+printf("Noon\n");
 for(j=1;j<=11;j++)
-	printf("%dpm\n",j);
+	printf("%dPM\n",j);
 }
 
