@@ -1,15 +1,15 @@
 #include<stdio.h>
 void main()
 {
-int num,pali,rev=0,rem;
+int n,pali,rev=0,rem;
 printf("enter the number");
-scanf("%d",&num);
-pali=num;
-while(num>0)
+scanf("%d",&n);
+pali=n;
+while(n>0)
 {	
-	rem=num%10;
+	rem=n%10;
 	rev=rev*10+rem;
-	num=num/10;
+	n=n/10;
 }
 if(pali==rev)
 	printf("%d is palindrome",pali);
