@@ -2,7 +2,7 @@
 void main()
 {
 int num,reverse=0;
-printf("enter the number");
+printf("Enter the number");
 scanf("%d",&num);
 
 reminder=num%10
