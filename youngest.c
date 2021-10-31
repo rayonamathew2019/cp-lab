@@ -2,7 +2,7 @@
 void main()
 {
 	int ram,shyam,ajay,young;
-	printf("enter the ages of ram,shyam and ajay");
+	printf("Enter the ages of ram,shyam and ajay");
 	scanf("%d%d%d",&ram,&shyam,&ajay);
 	young=ram;
 	if(shyam<young)
