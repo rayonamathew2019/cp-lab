@@ -1,19 +1,19 @@
 #include<stdio.h>
 void main()
 {
-	int ram,shyam,ajay,youngest;
+	int ram,shyam,ajay,young;
 	printf("enter the ages of ram,shyam and ajay");
 	scanf("%d%d%d",&ram,&shyam,&ajay);
-	youngest=ram;
-	if(shyam<youngest)
-		youngest=shyam;
+	young=ram;
+	if(shyam<young)
+		young=shyam;
 		
-	if(ajay<youngest)
-		youngest=ajay;
-	if(youngest==ram)
+	if(ajay<young)
+		young=ajay;
+	if(young==ram)
 		printf("ram is youngest");
-	if(youngest==shyam)
+	if(young==shyam)
 		printf("shyam is youngest");
-	if(youngest==ajay)
+	if(young==ajay)
 		printf("ajay is youngest");
 }
