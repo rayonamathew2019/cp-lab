@@ -2,7 +2,7 @@
 void main()
 {
 	int area,perimeter,length,breadth;
-	printf("enter length and breadth");
+	printf("Enter length and breadth");
 	scanf("%d%d",&len,&bre);
 	area=length*breadth;
 	perimeter=2*(length+breadth);
