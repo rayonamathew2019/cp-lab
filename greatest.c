@@ -2,7 +2,7 @@
 void main()
 {
 int big,num1,num2,num3;
-printf("enter three numbers");
+printf("enter three number");
 scanf("%d%d%d",&num1,&num2,&num3);
 big=num1;
 if(num2>big)
